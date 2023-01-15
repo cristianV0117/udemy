@@ -33,4 +33,9 @@ trait HttpCodesDomainHelper
     {
         return 500;
     }
+
+    public function notService(): int
+    {
+        return 503;
+    }
 }
